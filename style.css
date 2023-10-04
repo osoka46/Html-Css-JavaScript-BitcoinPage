@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@0,400;0,600;0,700;1,300&family=Roboto&family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*header start.*/
+
+.header{
+    width: 80%;
+    height: 12vh;
+    margin: auto;
+}
+
+
+.navbar{
+    display: flex;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255,   255 ,255, 0.3);
+}
+nav .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
 }
