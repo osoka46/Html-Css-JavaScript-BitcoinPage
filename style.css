@@ -78,3 +78,25 @@ nav .logo a{
     transition: all .25s    ease;
 }
 
+.menu-button:hover{
+    background-color: #0ba2c0;
+}
+
+.menu-button a:hover{
+    color: white;
+}
+/* header end */
+
+/* responsive start */
+@media(max-width:610px){
+    .header{
+        width: 100%;
+        padding: 0 12px;
+    }
+    .menu ul{
+        column-gap: 20px;
+    }
+}
+
+
+/* responsive end */
