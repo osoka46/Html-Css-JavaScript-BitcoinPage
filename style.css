@@ -38,16 +38,43 @@ nav .logo a{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    padding: 1rem;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
-    column-gap: 20px;
+    column-gap: 48px;
+    padding: 1rem;
 }
 .menu ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 30px;
+    list-style-type: none;
+    text-transform: uppercase;
 }
+
+.menu ul a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+
+.menu ul a:hover{
+    color: #0ba2c0;
+}
+.menu .menu-button{
+    padding: 12px 24px;
+    background-color: rgba(255,   255 ,255, 0.08);
+    border-radius: 56px;
+}
+
+.menu .menu-button a{
+    color: #0ba2c0;
+    text-decoration: none;
+    text-transform:capitalize;
+    transition: all .25s    ease;
+}
+
