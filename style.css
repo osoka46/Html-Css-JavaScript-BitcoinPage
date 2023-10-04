@@ -16,9 +16,8 @@ body{
 
 /*header start.*/
 
-.header{
+.container{
     width: 80%;
-    height: 12vh;
     margin: auto;
 }
 
@@ -97,6 +96,11 @@ nav .logo a{
         column-gap: 20px;
     }
 }
-
-
 /* responsive end */
+
+/* main start */
+
+
+
+
+/* main end */
