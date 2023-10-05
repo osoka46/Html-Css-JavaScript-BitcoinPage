@@ -16,44 +16,42 @@ body{
 
 /*header start.*/
 
+.header {
+    width: 100%;
+    margin: auto;
+}
 .container{
     width: 80%;
     margin: auto;
 }
 
-
-.navbar{
-    display: flex;
-    height: 100px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid rgba(255,   255 ,255, 0.3);
-}
-nav .logo a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding: 1rem;
+.navbar {
+    background-color: #214142;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 48px;
-    padding: 1rem;
-}
-.menu ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
+.navbar ul{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 20px;
     list-style-type: none;
-    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    margin:auto;
 }
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
 
 .menu ul a{
     color: white;
