@@ -24,7 +24,7 @@ body{
 
 .navbar{
     display: flex;
-    height: 100%;
+    height: 100px;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -64,26 +64,29 @@ nav .logo a{
 .menu ul a:hover{
     color: #0ba2c0;
 }
-.menu .menu-button{
-    padding: 12px 24px;
-    background-color: rgba(255,   255 ,255, 0.08);
-    border-radius: 56px;
-}
+
 
 .menu .menu-button a{
     color: #0ba2c0;
+    background-color: rgba(255,   255 ,255, 0.08);
+    border-radius: 50px;
     text-decoration: none;
     text-transform:capitalize;
     transition: all .25s    ease;
+    margin: 12px 24px;
+    padding: 20px 40px;
 }
 
-.menu-button:hover{
+.menu-button a:hover{
     background-color: #0ba2c0;
+    color: white;
 }
 
 .menu-button a:hover{
     color: white;
 }
+
+
 /* header end */
 
 /* responsive start */
@@ -95,12 +98,56 @@ nav .logo a{
     .menu ul{
         column-gap: 20px;
     }
+   
+   
 }
 /* responsive end */
 
 /* main start */
 
+.main h1, p{
+    color: white;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
 
+.main h1{
+    font-size: 60px;
+}
+.main p{
+    font-size: 24px;
+    text-align: justify;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 35px;
+    text-decoration: none;
+    width: 280px;
+    text-align: center;
+    color: black;
+    transition: all ease-in-out 0.6s;
+}
+
+.links a:hover{
+    background-color: #0ba2c0;
+    color: #fff;
+}
 
 
 /* main end */
