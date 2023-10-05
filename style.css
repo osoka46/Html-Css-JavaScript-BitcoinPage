@@ -41,48 +41,38 @@ body{
     margin:auto;
 }
 
+.navbar ul li{
+    padding: 15px;
+    border-radius: 10px;
+}
 .navbar ul li a{
     text-decoration: none;
     color: white;
     text-transform: capitalize;
 }
-
-
-
-
-
-
-
-.menu ul a{
-    color: white;
-    text-decoration: none;
-    transition: color 0.5s ease-in-out;
+.navbar ul li i{
+   margin-right: 8px;
+}
+#home-button{
+    background-color: #d4c995;
+}
+.header .navbar ul li:hover{
+    background-color: #d4c995;
 }
 
-.menu ul a:hover{
-    color: #0ba2c0;
+.header .navbar .sub-menu1{
+    display: none;
+}
+
+.header .navbar .sub-menu1:hover{
+    display: block;
 }
 
 
-.menu .menu-button a{
-    color: #0ba2c0;
-    background-color: rgba(255,   255 ,255, 0.08);
-    border-radius: 50px;
-    text-decoration: none;
-    text-transform:capitalize;
-    transition: all .25s    ease;
-    margin: 12px 24px;
-    padding: 20px 40px;
-}
 
-.menu-button a:hover{
-    background-color: #0ba2c0;
-    color: white;
-}
 
-.menu-button a:hover{
-    color: white;
-}
+
+
 
 
 /* header end */
