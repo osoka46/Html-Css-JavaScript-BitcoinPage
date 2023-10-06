@@ -5,19 +5,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     background-image: url(./images/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
+ }
 
 /*header start.*/
 
 .header {
     width: 100%;
+    height: 12vh;
     margin: auto;
 }
 .container{
@@ -93,7 +99,7 @@ body{
     text-transform: capitalize;
 }
 .header .navbar ul li:hover .sub-menu-1 ul li a:hover{
-    color: #b3ff0047;
+    color: rgba(255,255,255,0.5);
 }
 .fa-solid.fa-caret-right{
     color: white;
@@ -110,48 +116,6 @@ body{
     position: absolute;
     margin-left: 140px;
 }
-
-
-
-/* 
-
-.header .navbar .sub-menu1{
-    display: none;
-    position: absolute;
-}
-.about-us:hover .sub-menu1{
-    display: block;
-    margin-top: 15px;
-}
-
-.about-us:hover .sub-menu1 ul{
-    display: block;
-}
-
-.about-us:hover .sub-menu1 ul li{
-    padding: 10px;
-    text-align: justify;
-    background-color: transparent;
-    font-size: 15px;
-    border-bottom: 1px dotted white;
-    border-radius: 0;
-    cursor: pointer;
-    text-align: left;
-}
-
-.about-us:hover .sub-menu1 ul li a:hover{
-    color: rgba(255,255,255,0.5);
-}
-
-
-
- */
-
-
-
-
-
-
 
 /* header end */
 
