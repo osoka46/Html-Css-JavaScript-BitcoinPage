@@ -31,6 +31,7 @@ body{
 
 .navbar ul{
     display: inline-flex;
+    flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
     column-gap: 20px;
@@ -60,14 +61,91 @@ body{
     background-color: #d4c995;
 }
 
-.header .navbar .sub-menu1{
+
+.sub-menu-1{
     display: none;
+    position: absolute;
+}
+
+.header .navbar ul li:hover .sub-menu-1{
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.header .navbar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+
+.header .navbar ul li:hover .sub-menu-1 ul li {
+    background-color: transparent;
+    text-align: left;
+    border-bottom: 1px dotted white;
+    border-radius: 0;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.header .navbar ul li:hover .sub-menu-1 ul li a{
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.header .navbar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b3ff0047;
+}
+.fa-solid.fa-caret-right{
+    color: white;
+    font-size: 16px;
+    float: right;
+
+}
+.sub-menu-2{
+    display: none;
+}
+
+.show-sub-menu:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-left: 140px;
 }
 
 
 
+/* 
+
+.header .navbar .sub-menu1{
+    display: none;
+    position: absolute;
+}
+.about-us:hover .sub-menu1{
+    display: block;
+    margin-top: 15px;
+}
+
+.about-us:hover .sub-menu1 ul{
+    display: block;
+}
+
+.about-us:hover .sub-menu1 ul li{
+    padding: 10px;
+    text-align: justify;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px dotted white;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.about-us:hover .sub-menu1 ul li a:hover{
+    color: rgba(255,255,255,0.5);
+}
 
 
+
+ */
 
 
 
