@@ -15,4 +15,38 @@ html {
     height: 100vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to right, #dfabc5 0%,#1da1f2 100% );
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
  }
+
+ .container{
+    background-color: #fff;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    position: relative;
+ }
+
+ .container img{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    border-radius: 50px;
+    border: 3px solid #f7479f;
+ }
+ .container form .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 100px 10px 0px;
+    text-transform: capitalize;
+ }
+ 
+
+
