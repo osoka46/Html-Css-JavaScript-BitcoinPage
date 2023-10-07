@@ -6,17 +6,20 @@
     box-sizing: border-box;
 }
 html {
-    margin: 0px;
+    margin: 0;
     height: 100%;
     width: 100%;
+
  }
  
  body {
-    margin: 0px;
-    min-height: 100%;
+    margin: 0;
+    height: 100vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-size: cover;
  }
 
 /*header start.*/
@@ -181,3 +184,9 @@ html {
 
 
 /* main end */
+
+
+/* login page start */
+
+
+/* login page end */
