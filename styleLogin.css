@@ -68,6 +68,65 @@ html {
 
 .container form .underline::before{
    position: absolute;
+   content: "";
    height: 2px;
    width: 100%;
+   left: 0;
+   bottom: 0;
+   background-color: #ccc;
+}
+
+.container form .underline::after{
+   position: absolute;
+   content: "";
+   height: 2px;
+   width: 100%;
+   background-color: red;
+   left: 0;
+   bottom: 0;
+   transform: scaleX(0);
+   transform-origin: left;
+   transition: all 0.4s ease;
+}
+
+.container form .input-box input:focus ~ .underline::after,
+.container form .input-box input:valid ~ .underline::after{
+   transform: scaleX(1);
+}
+.submit-button{
+   margin: 40px 0 20px 0;
+}
+
+.container form .input-box input[type="submit"]{
+   font-size: 17px;
+   background: red;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.4s ease;
+}
+.container form .input-box input[type="submit"]:hover{
+   letter-spacing: 1px;
+   color: red;
+   background: rgba(0, 0, 0, 0.15);
+   font-weight: bold;
+   border-radius: 10px;
+}
+.container .text{
+   font-size: 14px;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.social-media-links .twitter a,
+.social-media-links .github a,
+.social-media-links .facebook a{
+   font-size: 15px;
+   width: 100%;
+   height: 45px;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 5px;
+   line-height: 45px;
+   text-transform: capitalize;
+   color: #ccc;
 }
