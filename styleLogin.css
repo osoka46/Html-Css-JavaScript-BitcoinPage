@@ -21,8 +21,8 @@ html {
     justify-content: center;
     align-content: center;
     background: linear-gradient(to right, #dfabc5 0%,#1da1f2 100% );
-    grid-template-columns: min-content;
-    grid-template-rows: min-content;
+    grid-template-columns: 350px;
+    grid-template-rows: 700px;
  }
 
  .container{
@@ -122,8 +122,6 @@ html {
    flex-direction: column;
    margin-top: 20px;
    row-gap: 30px;
-
-
 }
 .social-media-links .twitter{
    background-color: #1ad1f2;
@@ -138,7 +136,6 @@ html {
 }
 .social-media-links .facebook {
    background-color: #4267b2;
-   width: max-content;
    padding: 15px 10px 10px 0;
    border-radius: 5px;
    cursor: pointer;
