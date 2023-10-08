@@ -117,16 +117,64 @@ html {
    text-transform: capitalize;
 }
 
+.social-media-links{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: stretch;
+}
+.social-media-links .twitter,
+.social-media-links .github,
+.social-media-links .facebook{
+   
+
+}
+
 .social-media-links .twitter a,
 .social-media-links .github a,
 .social-media-links .facebook a{
    font-size: 15px;
-   width: 100%;
    height: 45px;
    text-decoration: none;
    padding: 10px;
    border-radius: 5px;
    line-height: 45px;
    text-transform: capitalize;
-   color: #ccc;
+   color: white;
+
 }
+
+.social-media-links .github a{
+   background-color: #24292e;
+   margin: 20px 0 15px 0;
+}
+.social-media-links .github a:hover{
+   background-color: #6d7e8f;
+}
+
+.social-media-links .twitter a{
+   margin: 20px 0 15px 0;
+   background-color: #1ad1f2;
+}
+
+.social-media-links .twitter a:hover{
+   background-color: #aabbbe;
+}
+
+.social-media-links .facebook a{
+   margin: 20px 0 15px 0;
+   background-color: #4267b2;
+}
+
+.social-media-links .facebook a:hover{
+   background-color:#8797b6; 
+}
+
+.container .github i,
+.container .twitter i,
+.container .facebook i{
+   font-size:  22px;
+   padding-right: 20px;
+}
+
+
