@@ -12,24 +12,30 @@
 
 
     <div class="container">
-        <div class="header">
-            <h1>to do list</h1>
-        </div>
+        <form action="#" id="task-form">
+            <h1>task notes</h1>
 
-        <div class="inputs">
-            <input type="text" id="inputText" placeholder="type anything to add your list">
-            <input type="submit" id="addToDo" value="add">
-            <input type="submit" id="clearToDo" value="clear">
-        </div>
+            <div class="items-wrap">
+                <label for="task-date">Date:</label>
+                <input type="date" id="task-date" required>
+            </div>
 
-        <div class="list-items">
+            <div class="items-wrap">
 
-        </div>
+                <label for="task-time">Time:</label>
+                <input type="time" id="task-time" required>
 
+            </div>
 
+            <div class="items-wrap">
+                <label for="task-details">Details:</label>
+                <textarea name="" id="task-details" placeholder="Write your task task details" required>
+                </textarea>
+            </div>
 
-
-
+            <button type="submit">add a task</button>
+        </form>
+        <div id="task-list"></div>
     </div>
 
     <script src="./toDoListApp.js" charset="UTF-8"></script>
