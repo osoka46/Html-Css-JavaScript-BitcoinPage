@@ -1,5 +1,5 @@
 # Html-Css-JavaScript-BitcoinPage
-wit dynamic login Page and toDoListApp
+with dynamic login Page and toDoListApp
 
 to check it out type ==>
 
