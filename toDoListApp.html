@@ -4,39 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List App</title>
+    <title>to Do List App</title>
     <link rel="stylesheet" href="toDoListAppStyle.css">
+
 </head>
 
 <body>
+
+
     <div class="container">
-
         <form action="#" id="task-form">
-            <h1>task notes</h1>
-
-            <div class="items-wrap">
-                <label for="task-date">Date:</label>
+            <h1>to do list</h1>
+            <div class="items-wraps">
+                <label for="task-date">Date</label>
                 <input type="date" id="task-date" required>
             </div>
-
-            <div class="items-wrap">
-
-                <label for="task-time">Time:</label>
+            <div class="items-wraps">
+                <label for="task-time">Time</label>
                 <input type="time" id="task-time" required>
 
             </div>
-
             <div class="items-wrap">
-                <label for="task-details">Details:</label>
-                <textarea name="task-details" id="task-details" placeholder="Write your task task details" required>
-                </textarea>
+                <label for="text-area">Details</label>
+                <textarea id="text-area" placeholder="Type a note and click 'Add A Task' button" required></textarea>
             </div>
-            <button type="submit">add a task</button>
+            <!-- <button id="submitDeneme" type="submit">add a task</button> -->
+            <div class="buttons">
+                <div class="add-button">
+                    <label for="submit-task">add note</label>
+                    <input type="submit" id="submit-task">
+                </div>
+                <div class="reset-button">
+                    <label for="reset-input">reset</label>
+                    <input type="reset" id="reset-input" />
+                </div>
+            </div>
+
         </form>
-        <div id="task-list"></div>
+        <div id="task-list">
+            <!-- <div class="task">1
+                <span>deneme</span>
+                <span class="delete">delete</span>
+            </div>
+            <div class="task">2
+                <span>deneme</span>
+                <span class="delete">delete</span>
+            </div>
+
+            <div class="task">3
+                <span>deneme</span>
+                <span class="delete">delete</span>
+            </div> -->
+
+        </div>
+
     </div>
 
-    <script src="./toDoListApp.js" charset="UTF-8"></script>
+
+
+    <script src="toDoListApp.js" charset="UTF-8"></script>
+
+
 </body>
 
 </html>
